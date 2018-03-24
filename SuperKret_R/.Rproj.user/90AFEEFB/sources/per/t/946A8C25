@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1521318548253.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "266588893",
+    "id" : "946A8C25",
+    "lastKnownWriteTime" : 1521673611,
+    "last_content_update" : 1521673611309,
+    "path" : "~/R/warsztaty_R_triggeR/podstawy_r.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "328,28",
+        "scrollLine" : "322",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

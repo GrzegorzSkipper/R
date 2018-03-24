@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1521301266572.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "650057308",
+    "id" : "D58086D0",
+    "lastKnownWriteTime" : 1521309925,
+    "last_content_update" : 1521309925376,
+    "path" : "~/R/ML_SAFARI/Volume2/section1-randomforest/02_rforest_intro.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "7,55",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

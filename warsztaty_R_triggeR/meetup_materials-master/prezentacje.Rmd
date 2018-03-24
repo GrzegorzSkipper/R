@@ -1,0 +1,13 @@
+#meet(R) in Tricity
+
+#Prezentacje z pierwszego spotkania
+
+
+<p><b>RSelenium jako alternatywa dla rvest podczas web-srcapingu</b> - Krzysztof Słomczyński<p/>
+
+<https://krzyslom.github.io/meet-R/#/>
+
+
+<p><b>Data Scientist w Wirtualnej Polsce</b> - Michał Maj
+
+<https://maju116.github.io/trigeR-01.2017/#/section-1>

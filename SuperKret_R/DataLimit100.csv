@@ -1,0 +1,101 @@
+id,data_utworzenia,typ_wniosku,powod_operatora,opoznienie,nr_referencyjny,jezyk,kanal,partner,kod_kraju,stan_wniosku,typ_podrozy,zrodlo_polecenia,kwota_rekompensaty_oryginalna,kwota_rekompensaty,liczba_pasazerow,oplata_za_usluge_procent,oplata_za_usluge_prawnicza_procent
+38849,2015-05-21 15:51:20.966704,opozniony,brak powodu,> 3h,1296D0DD,de,bezposredni,,DE,zamkniety,,,250.00,250.00,1,25,25
+2010138,2016-08-05 14:01:33.087445,anulowany,pogoda,> 3h,4BC8C532,en,bezposredni,,IE,nowy,,,500.00,500.00,2,25,25
+46098,2015-08-30 10:01:38.939775,opozniony,brak powodu,> 3h,9CCBA8A2,de,bezposredni,,DE,wyplacony,,,250.00,250.00,1,25,25
+38889,2015-05-22 09:22:47.470827,opozniony,brak powodu,> 3h,BFE66A42,de,bezposredni,,XX,akcja sadowa,,,250.00,250.00,1,25,25
+2012398,2016-09-09 11:44:17.210974,anulowany,brak powodu,> 3h,4BC8C532,en,bezposredni,,PL,nowy,,,0.00,0.00,1,25,25
+2038559,2016-10-20 12:52:45.718691,anulowany,pogoda,> 3h,4BC8C532,en,bezposredni,,IE,nowy,,,250.00,250.00,1,25,25
+2036713,2016-09-30 17:55:59.246551,anulowany,pogoda,> 4h,4BC8C532,en,bezposredni,,IE,nowy,,,250.00,250.00,1,25,25
+2001839,2016-02-08 09:09:25.331143,anulowany,pogoda,> 4h,4FA4164B,en,bezposredni,,PL,nowy,,,250.00,250.00,1,25,25
+2005830,2016-05-14 22:09:50.154009,opozniony,pogoda,> 3h,4BC8C532,en,bezposredni,,IE,nowy,,,250.00,250.00,1,25,25
+38752,2015-05-19 12:59:42.604572,anulowany,brak powodu,> 4h,50BB3DD0,it,bezposredni,,IT,odrzucony po analizie,,,3000.00,3000.00,5,25,25
+2009361,2016-07-26 11:45:57.885306,opozniony,pogoda,> 4h,DBB121C8,en,bezposredni,,PL,nowy,,,500.00,500.00,2,25,25
+38894,2015-05-22 11:05:11.462794,opozniony,strajk,> 3h,7250EDFE,it,bezposredni,,IT,odrzucony po analizie,,,600.00,600.00,1,25,25
+2038614,2016-10-21 07:29:18.661447,opozniony,brak powodu,> 3h,4BC8C532,en,bezposredni,,IE,nowy,,,250.00,250.00,1,25,25
+2002377,2016-02-16 23:03:14.800741,przepelniony,brak powodu,> 3h,4BC8C532,en,bezposredni,,IE,nowy,,,600.00,600.00,1,25,25
+1674,2014-01-21 12:51:37.500625,opozniony,brak powodu,> 3h,07EF1956,en,bezposredni,,ZZ,zamkniety,,,800.00,800.00,2,25,0
+39148,2015-05-28 14:16:05.777670,anulowany,brak powodu,> 4h,B3C7BAE9,en,bezposredni,,PT,zamkniety,,,400.00,400.00,1,25,25
+38902,2015-05-22 14:57:43.858073,opozniony,strajk,> 3h,8DF7294A,it,bezposredni,,IT,odrzucony prawnie,,,600.00,600.00,1,25,25
+53187,2015-11-02 10:46:12.615204,anulowany,strajk,> 4h,1F3A5DC2,fi,bezposredni,,FI,wyslany do operatora,biznesowy,,800.00,800.00,2,25,25
+54605,2015-11-13 08:21:53.977578,opozniony,strajk,> 3h,35241001,en,bezposredni,,GB,akcja sadowa,,,1250.00,1250.00,5,25,25
+54751,2015-11-15 15:38:25.905756,opozniony,strajk,> 3h,108DD8A8,da,bezposredni,,DK,nowy,biznesowy,,2400.00,2400.00,4,25,25
+2001690,2016-02-03 09:28:31.484105,opozniony,pogoda,> 3h,4BC8C532,en,bezposredni,,IE,nowy,,,250.00,250.00,1,25,25
+2003367,2016-03-07 11:05:20.452367,opozniony,strajk,> 3h,EC6A6536,en,bezposredni,,PL,nowy,,,800.00,800.00,2,25,25
+43597,2015-08-02 12:43:59.925939,opozniony,strajk,> 3h,34D12671,en,bezposredni,,MZ,zamkniety,,,1200.00,1200.00,2,25,25
+2004432,2016-04-08 05:43:54.854078,przepelniony,brak powodu,> 3h,4BC8C532,en,bezposredni,,IE,nowy,,,600.00,600.00,1,25,25
+2008250,2016-07-04 12:54:14.984915,opozniony,pogoda,> 3h,4BC8C532,en,bezposredni,,PL,nowy,,,250.00,250.00,1,25,25
+52080,2015-10-29 10:19:15.267515,anulowany,brak powodu,> 4h,8DAF9F56,da,posredni,,DK,akcja sadowa,,,500.00,500.00,2,35,15
+51788,2015-10-28 09:05:42.257691,opozniony,pogoda,> 3h,023CAE70,es,posredni,kiribati,CO,odrzucony prawnie,prywatny,,600.00,600.00,1,35,15
+33852,2015-02-11 20:31:51.596339,opozniony,pogoda,> 3h,3A021C20,de,posredni,tui,DE,nowy,,,1200.00,1200.00,2,35,15
+38901,2015-05-22 14:21:56.630312,opozniony,brak powodu,> 3h,B44F0B5A,pt,bezposredni,,PT,odrzucony po analizie,,,600.00,600.00,1,25,25
+54271,2015-11-11 20:22:54.634859,anulowany,strajk,> 2h,6BDED1A1,fi,posredni,tui,FI,akcja sadowa,,,250.00,250.00,1,35,15
+46484,2015-09-02 15:02:47.458325,anulowany,inne pociagi,> 4h,04E997CD,nb,posredni,tui,NO,odrzucony prawnie,,,500.00,500.00,2,35,15
+2107929,2017-09-06 08:11:09.620296,anulowany,pogoda,> 3h,4BC8C532,en,bezposredni,,IE,nowy,,,250.00,250.00,1,25,25
+2003783,2016-03-18 11:17:44.431461,anulowany,pogoda,> 3h,4BC8C532,en,bezposredni,,IE,nowy,,,250.00,250.00,1,25,25
+2005846,2016-05-15 22:08:18.946268,opozniony,pogoda,> 3h,5E4EF1B4,en,posredni,,IE,nowy,,,250.00,250.00,1,35,15
+2048580,2017-01-11 12:07:56.464788,anulowany,pogoda,> 3h,4BC8C532,en,bezposredni,,IE,nowy,,,250.00,250.00,1,25,25
+2048628,2017-01-11 13:25:23.442235,anulowany,pogoda,> 3h,4BC8C532,en,posredni,wakacje.pl,IE,nowy,,,250.00,250.00,1,35,15
+30837,2015-01-13 13:13:05.721246,anulowany,strajk,> 2h,DF410478,da,posredni,,DK,wyplacony,,,250.00,250.00,1,35,15
+2095905,2017-07-27 11:19:55.433546,opozniony,pogoda,> 3h,6AC9F156,en,bezposredni,,ZZ,wyplacony,,,250.00,250.00,1,25,25
+2001153,2016-01-22 09:08:58.054477,anulowany,pogoda,> 3h,4BC8C532,en,bezposredni,,IE,nowy,,,250.00,250.00,1,25,25
+40477,2015-06-26 08:25:15.393050,anulowany,strajk,> 4h,2B47EC65,da,posredni,,ZZ,wyplacony,,,250.00,250.00,1,35,15
+38977,2015-05-25 20:06:09.531188,opozniony,strajk,> 3h,154F7D26,en,bezposredni,,US,zamkniety,,,600.00,600.00,1,25,25
+4183,2014-04-08 11:22:43.351659,opozniony,strajk,> 3h,A911F2FF,da,bezposredni,,DK,odrzucony po analizie,,,500.00,500.00,2,25,0
+38895,2015-05-22 11:52:13.899250,opozniony,brak powodu,> 3h,083CCFDA,sv,bezposredni,,SE,wyplacony,,,600.00,600.00,1,25,25
+38920,2015-05-23 03:34:30.912826,opozniony,pogoda,> 3h,571DC40A,en,bezposredni,,US,odrzucony po analizie,,,600.00,600.00,1,25,25
+38923,2015-05-23 07:57:04.619069,anulowany,strajk,> 2h,28D2CAE6,da,bezposredni,,XX,odrzucony po analizie,,,250.00,250.00,1,25,25
+38926,2015-05-23 09:43:14.483377,opozniony,strajk,> 3h,F42AA9FF,pt,bezposredni,,CH,odrzucony po analizie,,,250.00,250.00,1,25,25
+38922,2015-05-23 07:27:30.302374,opozniony,brak powodu,> 3h,675ACED5,en,bezposredni,,DK,zamkniety,,,600.00,600.00,1,25,25
+38946,2015-05-24 15:43:34.028438,opozniony,brak powodu,> 3h,010BF70B,en,bezposredni,,PH,odrzucony po analizie,,,600.00,600.00,1,25,25
+40344,2015-06-24 19:13:41.329297,opozniony,brak powodu,> 3h,525D43D5,en,bezposredni,,TR,zamkniety,,,400.00,400.00,1,25,25
+38955,2015-05-25 07:19:20.702238,opozniony,brak powodu,> 3h,56E3DB20,en,bezposredni,,US,akcja sadowa,,,600.00,600.00,1,25,25
+38960,2015-05-25 10:42:07.407356,opozniony,pogoda,> 3h,7F062014,es,bezposredni,,ES,odrzucony po analizie,,,600.00,600.00,1,25,25
+38967,2015-05-25 14:50:47.461668,opozniony,brak powodu,> 3h,C410C020,en,bezposredni,,US,wyplacony,,,600.00,600.00,1,25,25
+38991,2015-05-26 07:58:19.469392,anulowany,strajk,> 4h,92416F86,en,bezposredni,,MY,odrzucony prawnie,,,250.00,250.00,1,25,25
+38972,2015-05-25 18:18:14.902156,anulowany,brak powodu,> 4h,53F78CD5,en,bezposredni,,US,zamkniety,,,600.00,600.00,1,25,25
+39256,2015-05-29 16:49:00.777032,opozniony,brak powodu,> 3h,47EFF781,en,bezposredni,,US,odrzucony po analizie,,,600.00,600.00,1,25,25
+38979,2015-05-26 00:23:27.721140,opozniony,brak powodu,> 3h,54DF938C,en,bezposredni,,CA,odrzucony przez operatora,,,600.00,600.00,1,25,25
+38980,2015-05-26 00:30:04.751437,opozniony,brak powodu,> 3h,54DF938C,en,bezposredni,,CA,odrzucony po analizie,,,600.00,600.00,1,25,25
+39219,2015-05-29 05:09:46.704612,anulowany,strajk,> 4h,427E00B5,en,bezposredni,,ZZ,zamkniety,,,250.00,250.00,1,25,25
+4242,2014-04-10 09:43:32.691903,opozniony,strajk,> 3h,F915F6EC,en,bezposredni,,ZZ,wyplacony,,,800.00,800.00,2,25,0
+38982,2015-05-26 04:43:10.336699,opozniony,brak powodu,> 3h,46E25DE7,en,bezposredni,,US,akcja sadowa,,,250.00,250.00,1,25,25
+38970,2015-05-25 17:02:52.822314,opozniony,brak powodu,> 3h,D34767FF,en,bezposredni,,DE,zamkniety,,,250.00,250.00,1,25,25
+38994,2015-05-26 09:33:11.186619,opozniony,brak powodu,> 3h,7F4AFD27,da,bezposredni,,DK,odrzucony po analizie,,,600.00,600.00,1,25,25
+38995,2015-05-26 10:01:17.805132,opozniony,strajk,> 3h,947674B9,da,bezposredni,,DK,odrzucony po analizie,,,600.00,600.00,1,25,25
+38998,2015-05-26 11:45:52.161089,opozniony,brak powodu,> 3h,704F1460,pt,bezposredni,,PT,akcja sadowa,,,600.00,600.00,1,25,25
+35003,2015-02-25 19:38:52.109254,opozniony,brak powodu,> 3h,6A7F1DA3,fr,bezposredni,,FR,odrzucony prawnie,,,250.00,250.00,1,25,25
+56014,2015-11-24 16:20:41.918707,opozniony,brak powodu,> 3h,0865641D,en,bezposredni,,GB,nowy,biznesowy,przyjaciele,250.00,250.00,1,25,25
+39045,2015-05-26 17:24:34.798061,anulowany,strajk,> 3h,F482E60A,pt,bezposredni,,FR,odrzucony prawnie,,,400.00,400.00,1,25,25
+39229,2015-05-29 08:22:52.028574,anulowany,brak powodu,> 4h,60D68935,en,bezposredni,,KR,odrzucony po analizie,,,250.00,250.00,1,25,25
+40996,2015-07-07 02:42:17.943597,anulowany,brak powodu,> 4h,756D425A,en,bezposredni,,US,odrzucony po analizie,,,600.00,600.00,1,25,25
+39037,2015-05-26 16:47:20.789155,opozniony,brak powodu,> 3h,5C3835E1,nl,bezposredni,,NL,wyplacony,,,400.00,400.00,1,25,25
+39137,2015-05-28 12:40:31.899637,opozniony,brak powodu,> 3h,0D6A0C63,en,bezposredni,,GB,akcja sadowa,,,250.00,250.00,1,25,25
+39058,2015-05-26 19:23:15.776498,anulowany,strajk,> 4h,A9A44C52,en,bezposredni,,ZZ,zamkniety,,,400.00,400.00,1,25,25
+39065,2015-05-26 21:02:06.868997,anulowany,brak powodu,> 4h,7DC0B2B4,it,bezposredni,,IT,odrzucony po analizie,,,250.00,250.00,1,25,25
+39081,2015-05-27 10:28:58.415994,anulowany,pogoda,> 4h,F93B2EA6,da,bezposredni,,DK,odrzucony po analizie,,,600.00,600.00,1,25,25
+39091,2015-05-27 14:14:53.611055,anulowany,brak powodu,> 4h,2D99D95C,pt,bezposredni,,BE,odrzucony po analizie,,,250.00,250.00,1,25,25
+4248,2014-04-10 13:38:54.219109,opozniony,strajk,> 3h,F1F9101C,de,bezposredni,,DE,zamkniety,,,500.00,500.00,2,25,0
+39094,2015-05-27 14:24:42.471971,anulowany,brak powodu,> 4h,29FFB30A,da,bezposredni,,DK,odrzucony po analizie,,,250.00,250.00,1,25,25
+39095,2015-05-27 14:46:47.616530,opozniony,brak powodu,> 3h,7AAD0C20,pt,bezposredni,,PT,odrzucony po analizie,,,250.00,250.00,1,25,25
+39093,2015-05-27 14:22:12.801286,anulowany,brak powodu,> 4h,15999B53,pt,bezposredni,,PT,odrzucony prawnie,,,400.00,400.00,1,25,25
+39100,2015-05-27 17:54:24.766936,opozniony,strajk,> 3h,24147032,pt,bezposredni,,BE,zamkniety,,,600.00,600.00,1,25,25
+39098,2015-05-27 17:13:45.782330,opozniony,brak powodu,> 3h,93066A88,es,bezposredni,,ES,wyplacony,,,250.00,250.00,1,25,25
+39107,2015-05-27 20:27:31.072897,opozniony,brak powodu,> 3h,5570773D,pt,bezposredni,,PT,akcja sadowa,,,600.00,600.00,1,25,25
+39096,2015-05-27 15:47:33.866539,anulowany,brak powodu,> 4h,DD10D9FF,es,bezposredni,,ES,odrzucony po analizie,,,800.00,800.00,2,25,25
+39111,2015-05-27 22:39:44.423184,anulowany,brak powodu,> 4h,73F84123,en,bezposredni,,US,odrzucony prawnie,,,600.00,600.00,1,25,25
+2012375,2016-09-09 09:47:27.295071,opozniony,brak powodu,> 3h,4BC8C532,en,bezposredni,,IE,nowy,,,600.00,600.00,1,25,25
+39119,2015-05-28 07:28:08.648454,opozniony,brak powodu,> 3h,00CF3901,fi,bezposredni,,FI,akcja sadowa,,,400.00,400.00,1,25,25
+39112,2015-05-27 22:56:23.843689,opozniony,brak powodu,> 3h,3A6B3CA2,en,bezposredni,,GB,akcja sadowa,,,250.00,250.00,1,25,25
+39230,2015-05-29 08:31:01.433969,anulowany,brak powodu,> 4h,60D68935,en,bezposredni,,KR,odrzucony przez operatora,,,250.00,250.00,1,25,25
+39117,2015-05-28 06:16:07.721100,opozniony,pogoda,> 3h,DA28B0B3,es,bezposredni,,ES,zamkniety,,,250.00,250.00,1,25,25
+39961,2015-06-14 20:57:50.530716,anulowany,strajk,> 4h,DF3ED930,en,bezposredni,,FR,akcja sadowa,,,250.00,250.00,1,25,25
+35095,2015-02-26 11:21:04.924968,anulowany,strajk,> 4h,D5D06112,da,bezposredni,,DK,odrzucony prawnie,,,600.00,600.00,1,25,25
+35482,2015-03-05 16:16:58.540431,opozniony,brak powodu,> 3h,88DBB651,ru,bezposredni,,RU,odrzucony prawnie,,,400.00,400.00,1,25,25
+34528,2015-02-20 16:08:44.887040,anulowany,brak powodu,> 2h,3B07960A,da,posredni,,DK,wyplacony,,,250.00,250.00,1,35,15
+13160,2014-08-04 01:20:17.493440,anulowany,strajk,> 3h,BF8C8308,en,bezposredni,,ZZ,zamkniety,,,0.00,0.00,2,25,0
+9039,2014-07-01 18:19:33.349008,opozniony,pogoda,> 3h,E5F23D54,pt,bezposredni,,PT,nowy,,,500.00,500.00,2,25,0
+6407,2014-05-25 15:34:33.874982,opozniony,brak powodu,> 3h,334EC3B2,sv,bezposredni,,SE,wyplacony,,,2400.00,2400.00,4,25,0
+7951,2014-06-23 07:23:48.325308,anulowany,brak powodu,> 4h,8AD8A8AE,en,bezposredni,,US,zamkniety,,,1200.00,1200.00,2,25,0
+2048666,2017-01-11 15:34:32.684190,opozniony,pogoda,> 3h,DBB121C8,en,bezposredni,,IE,nowy,,,250.00,250.00,1,25,25
+33218,2015-02-04 14:06:23.246006,opozniony,strajk,> 3h,8C454076,da,posredni,,DK,zamkniety,,,250.00,250.00,1,35,15
+36348,2013-07-22 10:04:55.000000,opozniony,brak powodu,> 3h,CEDD44EA,da,bezposredni,,ZZ,zamkniety,,,500.00,500.00,2,25,0

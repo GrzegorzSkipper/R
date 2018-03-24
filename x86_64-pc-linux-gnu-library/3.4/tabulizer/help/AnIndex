@@ -1,0 +1,13 @@
+tabulizer-package	tabulizer-package
+extract_areas	extract_areas
+extract_metadata	extract_metadata
+extract_tables	extract_tables
+extract_text	extract_text
+get_n_pages	get_page_dims
+get_page_dims	get_page_dims
+locate_areas	extract_areas
+make_thumbnails	make_thumbnails
+merge_pdfs	split_merge
+split_pdf	split_merge
+stop_logging	stop_logging
+tabulizer	tabulizer-package

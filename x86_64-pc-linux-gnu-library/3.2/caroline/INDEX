@@ -1,0 +1,42 @@
+addFactLevs             Add new levels to the Factors in a DataFrame.
+bestBy                  Find the "best" record within subgroups of a
+                        dataframe.
+dbWriteTable2           Data Import Wrapper for dbWriteTable.
+geomean                 Calculate the Geometric Mean
+groupBy                 Group a datafame by a factor and perform
+                        aggreate functions.
+heatmatrix              Simple Heatmap Plot
+hyperplot               Annotate Outliers in a Scatterplot via an HTML
+                        Image-Map
+labsegs                 Buffered Segments for Point Labels
+leghead                 Generate a Color Coded Legend dataframe via
+                        head and sum.
+m                       Regexp Match Operator
+makeElipseCoords        Make Elipse Coordinates
+mvlabs                  Move Text Labels Interactively
+nerge                   Named Merge
+nv                      Create a named vector from a dataframe, table
+                        or vector
+pad                     Pad a vector of numerical string with zeros.
+parseArgString          Process Command Line Arguments
+pct                     Add Percentage Columns to a Dataframe
+pies                    Pie chart scatterplot
+plotClock               Plot a simple clock.
+raAddArms               Add Arms to a RA plot.
+raAddAxLabs             Add axis labels to an RA plot.
+raAddSigLines           Add Significance Lines to an RA plot.
+raPlot                  Generate a Ratio Average [RAy] Plot.
+read.tab                Read in a Tab Delimited File.
+regroup                 Regroup a dataframe.
+rerowname               Rename select rows of a dataframe
+spie                    Spie charts
+sstable                 Sum Sorted Tabulation
+stats                   Descriptive Statistics
+tab2df                  Table to Data Frame
+textplot                A Text-Only Plot
+usr2lims                Grab and adjust the current plot dimensions
+vennMatrix              Create a Venn Ready Matrix out of a List of
+                        Factors
+violins                 Plot a Series of Vioplot Violins
+wjitter                 Weighted Jitter
+write.delim             Write a (tab) delimited text file.

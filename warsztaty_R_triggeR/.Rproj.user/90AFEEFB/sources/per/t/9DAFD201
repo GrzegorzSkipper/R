@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1521319945323.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1846718580",
+    "id" : "9DAFD201",
+    "lastKnownWriteTime" : 1521658167,
+    "last_content_update" : 1521658167865,
+    "path" : "~/R/warsztaty_R_triggeR/podstawy_r.R",
+    "project_path" : "podstawy_r.R",
+    "properties" : {
+        "cursorPosition" : "365,29",
+        "scrollLine" : "335"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

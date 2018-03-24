@@ -1,0 +1,9 @@
+extract_metadata        extract_metadata
+extract_tables          extract_tables
+extract_text            extract_text
+get_page_dims           Page length and dimensions
+locate_areas            extract_areas
+make_thumbnails         make_thumbnails
+split_pdf               Split and merge PDFs
+stop_logging            rJava logging
+tabulizer-package       tabulizer

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1521657384372.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2676722823",
+    "id" : "EF951EDC",
+    "lastKnownWriteTime" : 1521653403,
+    "last_content_update" : 1521653403,
+    "path" : "~/R/warsztaty_R_triggeR/meetup_materials-master/podstawy.Rmd",
+    "project_path" : "meetup_materials-master/podstawy.Rmd",
+    "properties" : {
+        "cursorPosition" : "574,0",
+        "scrollLine" : "566"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

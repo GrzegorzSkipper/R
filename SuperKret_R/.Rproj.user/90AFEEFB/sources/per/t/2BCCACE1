@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1520679319779.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "829889612",
+    "id" : "2BCCACE1",
+    "lastKnownWriteTime" : 1521673298,
+    "last_content_update" : 1521673298420,
+    "path" : "~/R/SuperKret_R/R_SuperKRet1.R",
+    "project_path" : "R_SuperKRet1.R",
+    "properties" : {
+        "cursorPosition" : "89,0",
+        "scrollLine" : "65",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

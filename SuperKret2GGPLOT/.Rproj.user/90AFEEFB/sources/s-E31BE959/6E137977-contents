@@ -1,0 +1,86 @@
+active_packages <- function(pkg){
+  new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
+  if (length(new.pkg))
+    install.packages(new.pkg, dependencies = TRUE)
+  sapply(pkg, require, character.only = TRUE)
+  print("packages ready")
+}
+packages <- c("devtools", "tidyverse", "RPostgreSQL","mgcv")
+
+active_packages(packages)
+
+loaded_packages()
+
+drv <- dbDriver("PostgreSQL")
+con <- dbConnect(drv, dbname = "postgres", host = "localhost", port = 5433, user = "postgres", password = "admin")
+rekompensaty_db <- dbGetQuery(con, "SELECT * FROM szczegoly_rekompensat")
+
+wnioski_db <-  dbGetQuery(con, "SELECT * FROM wnioski")
+
+#funkcja rysujaca scatterplot
+ggplot(data=rekompensaty_db) +
+  geom_point(mapping = aes(x=konto, y=kwota))
+
+#funkcja rysujaca rozrzut na poszczególne konta 
+ggplot(data=rekompensaty_db) +
+  geom_point(mapping = aes(x=data_utworzenia, y=kwota, color=konto))
+
+#funkcja rysujaca rozrzut na z kolorwanie na typy wniosków
+ggplot(data=wnioski_db) + 
+  ylim(0, 2000) +  # limitujemy tym poeceniem
+  geom_point(mapping = aes(x=data_utworzenia, y=kwota_rekompensaty, color=typ_wniosku))
+
+?geom_point
+
+
+ggplot(data=wnioski_db) + 
+  ylim(0, 2000) +  # limitujemy tym poeceniem
+  geom_point(mapping = aes(x=data_utworzenia, y=kwota_rekompensaty, color=typ_wniosku), color="blue")
+
+
+
+#FACETS
+
+ggplot(data=wnioski_db) + 
+  ylim(0, 2000) +  # limitujemy tym poeceniem
+  geom_point(mapping = aes(x=data_utworzenia, y=kwota_rekompensaty, color=typ_wniosku))+
+               facet_wrap(~jezyk, ncol=3)
+
+
+#dodajemy podział wykresów przez GRIP na podział wierszowy trochę a la pivot table 
+ggplot(data=wnioski_db) + 
+  #ylim(0, 2000) +  # limitujemy tym poeceniem
+  geom_point(mapping = aes(x=data_utworzenia, y=kwota_rekompensaty, color=jezyk))+
+  facet_grid(kanal~typ_wniosku)            
+
+#BY DZIALAŁAŁ GEOM_SMOOTH MUSIMY ZAKTUALIZOWAC PAKIETY I BILIOTEKI
+install.packages("mgcv")
+install.packages("C_crspl")
+install_github("rstudio/C_crspl")
+library("C_crspl")
+library("mgcv")
+
+#GEOM_SMOOTH
+ggplot(data=wnioski_db) +
+  ylim(0, 12000) +
+  xlim(0, 20) +
+  geom_point(mapping = aes(x=liczba_pasazerow, y=kwota_rekompensaty, color=jezyk)) +
+  geom_smooth(mapping = aes(x=liczba_pasazerow, y=kwota_rekompensaty))+
+  facet_wrap(~jezyk, ncol=3)
+
+warnings()
+
+#ggplot z ustawieniami globalnymi gla każdej opcji jak geom_point (scattterplot i smooth)
+ggplot(data=wnioski_db, mapping = aes(x=liczba_pasazerow, y=kwota_rekompensaty))+
+  geom_point(mapping = aes(color=jezyk))+
+  geom_smooth()+
+  facet_wrap(~jezyk, ncol=3)
+
+
+
+#filtr
+ggplot(data=wnioski_db, mapping = aes(x=liczba_pasazerow, y=kwota_rekompensaty))+
+  geom_point(mapping = aes(color=jezyk))+
+  geom_smooth(data=filter(wnioski_db, kod_kraju=="PL"), color="red", show.legend = T)+
+  geom_smooth(data=filter(wnioski_db, kod_kraju=="ES"), color="blue")
+  #facet_wrap(~jezyk, ncol=3)

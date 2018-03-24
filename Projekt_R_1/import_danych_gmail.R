@@ -1,0 +1,38 @@
+active_packages <- function(pkg){
+  new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
+  if (length(new.pkg))
+    install.packages(new.pkg, dependencies = TRUE)
+  sapply(pkg, require, character.only = TRUE)
+  print("packages ready")
+}
+packages <- c("devtools", "openxlsx", "RPostgreSQL", "dplyr", "XML", "RCurl")
+
+
+active_packages(packages)
+
+
+
+link <- "https://docs.google.com/spreadsheets/d/1P9PG5mcbaIeuO9v_VE5pv6U4T2zyiRiFK_r8jVksTyk/htmlembed?single=true&gid=0&range=a10:o400&widget=false&chrome=false"
+
+
+xData <- getURL(link) # pobieramy dane
+dane_z_html <- readHTMLTable(xData, stringsAsFactors = FALSE, skip.rows = c(1,3), header = FALSE, encoding="utf8", dec) 
+
+?data.frame
+
+?readHTMLTable
+danegmail <- data.frame(dane_z_html)
+colnames(danegmail) = danegmail[1, ]
+danegmail <- danegmail[2:nrow(danegmail),]
+
+for(col in 8:16){
+  danegmail[, col] <-  as.numeric(gsub(",", ".", danegmail[, col]))
+}
+
+?format
+
+for(col in 8:16){
+  danegmail[, col] <-  gsub(",", ".", danegmail[, col])
+}
+
+class(danegmail$PiS)

@@ -1,0 +1,22 @@
+Package: lubripack
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1
+Date: 2016-04-05
+Author: Who wrote it
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+LazyData: TRUE
+RoxygenNote: 5.0.1.9000
+Built: R 3.4.3; ; 2018-03-17 20:12:40 UTC; unix
+RemoteType: github
+RemoteHost: https://api.github.com
+RemoteRepo: lubripack
+RemoteUsername: espanta
+RemoteRef: master
+RemoteSha: b1dd9ee1f6c8fc6e4dd6d8870cc7558907caa151
+GithubRepo: lubripack
+GithubUsername: espanta
+GithubRef: master
+GithubSHA1: b1dd9ee1f6c8fc6e4dd6d8870cc7558907caa151

@@ -1,0 +1,35 @@
+Package: tabulizer
+Type: Package
+Title: Bindings for Tabula PDF Table Extractor Library
+Version: 0.1.24
+Authors@R: c(person("Thomas J.", "Leeper",
+                    role = c("aut", "cre"), 
+                    email = "thosjleeper@gmail.com",
+                    comment = c(ORCID = "0000-0003-4097-6326")),
+             person("David", "Gohel", role = "ctb",
+                    comment = "rOpenSci reviewer"),
+             person("Lincoln", "Mullen", role = "ctb",
+                    comment = "rOpenSci reviewer"))
+Description: Bindings for the Tabula <http://tabula.technology/> java library, which can extract tables from PDF documents. The 'tabulizerjars' package <https://github.com/ropensci/tabulizerjars> provides versioned java .jar files, including all dependencies, aligned to releases of Tabula.
+License: MIT + file LICENSE
+URL: https://github.com/ropensci/tabulizer
+BugReports: https://github.com/ropensci/tabulizer/issues
+Imports: utils, tools, tabulizerjars, rJava, png
+Suggests: graphics, grDevices, shiny, miniUI, testthat, knitr
+RoxygenNote: 5.0.1
+Remotes: github::ropensci/tabulizerjars
+Author: Thomas J. Leeper [aut, cre] (0000-0003-4097-6326),
+  David Gohel [ctb] (rOpenSci reviewer),
+  Lincoln Mullen [ctb] (rOpenSci reviewer)
+Maintainer: Thomas J. Leeper <thosjleeper@gmail.com>
+Built: R 3.4.3; ; 2018-03-10 19:19:15 UTC; unix
+RemoteType: github
+RemoteHost: https://api.github.com
+RemoteRepo: tabulizer
+RemoteUsername: ropensci
+RemoteRef: master
+RemoteSha: f5d10febd2c78fad5797af0ef0c9bc87a2b6fd69
+GithubRepo: tabulizer
+GithubUsername: ropensci
+GithubRef: master
+GithubSHA1: f5d10febd2c78fad5797af0ef0c9bc87a2b6fd69

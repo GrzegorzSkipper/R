@@ -1,0 +1,19 @@
+Package: png
+Version: 0.1-7
+Title: Read and write PNG images
+Author: Simon Urbanek <Simon.Urbanek@r-project.org>
+Maintainer: Simon Urbanek <Simon.Urbanek@r-project.org>
+Depends: R (>= 2.9.0)
+Description: This package provides an easy and simple way to read, write and display bitmap images stored in the PNG format. It can read and write both files and in-memory raw vectors.
+License: GPL-2 | GPL-3
+SystemRequirements: libpng
+URL: http://www.rforge.net/png/
+Packaged: 2013-12-03 20:09:14 UTC; svnuser
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-03 22:25:05
+Built: R 3.4.3; x86_64-pc-linux-gnu; 2018-03-10 19:18:51 UTC; unix
+RemoteType: cran
+RemoteSha: 0.1-7
+RemoteRepos: structure("https://cran.rstudio.com", .Names = "CRAN")
+RemotePkgType: source

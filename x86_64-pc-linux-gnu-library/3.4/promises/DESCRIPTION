@@ -1,0 +1,36 @@
+Package: promises
+Type: Package
+Title: Abstractions for Promise-Based Async Programming
+Version: 0.1.0.9002
+Authors@R: c(
+      person("Joe", "Cheng", email = "joe@rstudio.com", role = c("aut", "cre")),
+      person("RStudio", role = c("cph", "fnd"))
+    )
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Imports: R6, Rcpp, later, rlang, stats, magrittr
+Suggests: testthat, future, knitr, rmarkdown
+LinkingTo: later, Rcpp
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
+URL: https://rstudio.github.io/promises,
+        https://github.com/rstudio/promises
+BugReports: https://github.com/rstudio/promises/issues
+Author: Joe Cheng [aut, cre],
+  RStudio [cph, fnd]
+Maintainer: Joe Cheng <joe@rstudio.com>
+Built: R 3.4.3; x86_64-pc-linux-gnu; 2018-03-10 19:25:09 UTC; unix
+RemoteType: github
+RemoteHost: https://api.github.com
+RemoteRepo: promises
+RemoteUsername: rstudio
+RemoteRef: master
+RemoteSha: c4f0cd0ffd8141a17ddb41e757126287ac0f5bce
+GithubRepo: promises
+GithubUsername: rstudio
+GithubRef: master
+GithubSHA1: c4f0cd0ffd8141a17ddb41e757126287ac0f5bce
